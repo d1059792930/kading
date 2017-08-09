@@ -22,7 +22,7 @@ public class GuPiaoService {
     public List<GuPiao> getOver500(){
 //        List<String> codes=new ArrayList<>();
         //sh600737,sh600123,sh600125,sh600127,sh600128,sh600129,sh600130,sh600131,sh600132,sh600326,sz300377,sz000683,sh600516
-        String codes="sh600737,sh600123,sh600125,sh600127,sh600128,sh600129,sh600130,sh600131,sh600132,sh600326,sz300377,sz000683,sh600516";
+        String codes="sh600737,sh600123";
         List<GuPiao> detailByCodes = getDetailByCodes(codes);
         return detailByCodes;
     }
